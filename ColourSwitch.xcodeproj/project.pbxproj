@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33789482424F94B00466C22 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33789472424F94B00466C22 /* MenuScene.swift */; };
+		C337894A2424F99300466C22 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33789492424F99300466C22 /* logo@2x.png */; };
+		C337894C2424FF2D00466C22 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = C337894B2424FF2D00466C22 /* bling.wav */; };
+		C337894E2424FF3700466C22 /* game_over.wav in Resources */ = {isa = PBXBuildFile; fileRef = C337894D2424FF3700466C22 /* game_over.wav */; };
 		C3913FA72424C4DC00D4F4FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3913FA62424C4DC00D4F4FB /* AppDelegate.swift */; };
 		C3913FAF2424C4DC00D4F4FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3913FAE2424C4DC00D4F4FB /* GameViewController.swift */; };
 		C3913FB22424C4DC00D4F4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3913FB02424C4DC00D4F4FB /* Main.storyboard */; };
@@ -15,8 +19,9 @@
 		C3913FC22424C4E000D4F4FB /* ColourSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3913FC12424C4E000D4F4FB /* ColourSwitchTests.swift */; };
 		C3913FCD2424C4E000D4F4FB /* ColourSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3913FCC2424C4E000D4F4FB /* ColourSwitchUITests.swift */; };
 		C3913FDF2424CB8C00D4F4FB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3913FDC2424CB8C00D4F4FB /* GameScene.swift */; };
-		C3913FE02424CB8C00D4F4FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C3913FDD2424CB8C00D4F4FB /* GameScene.sks */; };
-		C3913FE12424CB8C00D4F4FB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C3913FDE2424CB8C00D4F4FB /* Actions.sks */; };
+		C3913FE82424DE0200D4F4FB /* ColorCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3913FE62424DE0100D4F4FB /* ColorCircle@2x.png */; };
+		C3913FE92424DE0200D4F4FB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = C3913FE72424DE0200D4F4FB /* ball.png */; };
+		C3913FEB2424E17900D4F4FB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3913FEA2424E17900D4F4FB /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C33789472424F94B00466C22 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		C33789492424F99300466C22 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "../../../../../Desktop/images/logo@2x.png"; sourceTree = "<group>"; };
+		C337894B2424FF2D00466C22 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bling.wav; path = ../../../../../Desktop/images/bling.wav; sourceTree = "<group>"; };
+		C337894D2424FF3700466C22 /* game_over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = game_over.wav; path = ../../../../../Desktop/images/game_over.wav; sourceTree = "<group>"; };
+		C337894F242502A400466C22 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C3913FA32424C4DC00D4F4FB /* ColourSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3913FA62424C4DC00D4F4FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3913FAE2424C4DC00D4F4FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +61,9 @@
 		C3913FCC2424C4E000D4F4FB /* ColourSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourSwitchUITests.swift; sourceTree = "<group>"; };
 		C3913FCE2424C4E000D4F4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3913FDC2424CB8C00D4F4FB /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C3913FDD2424CB8C00D4F4FB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C3913FDE2424CB8C00D4F4FB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C3913FE62424DE0100D4F4FB /* ColorCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ColorCircle@2x.png"; path = "../../../../../Desktop/images/ColorCircle@2x.png"; sourceTree = "<group>"; };
+		C3913FE72424DE0200D4F4FB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../../../Desktop/images/ball.png; sourceTree = "<group>"; };
+		C3913FEA2424E17900D4F4FB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,7 @@
 		C3913F9A2424C4DC00D4F4FB = {
 			isa = PBXGroup;
 			children = (
+				C337894F242502A400466C22 /* README.md */,
 				C3913FA52424C4DC00D4F4FB /* ColourSwitch */,
 				C3913FC02424C4E000D4F4FB /* ColourSwitchTests */,
 				C3913FCB2424C4E000D4F4FB /* ColourSwitchUITests */,
@@ -103,15 +115,11 @@
 		C3913FA52424C4DC00D4F4FB /* ColourSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				C3913FA62424C4DC00D4F4FB /* AppDelegate.swift */,
-				C3913FAE2424C4DC00D4F4FB /* GameViewController.swift */,
-				C3913FB02424C4DC00D4F4FB /* Main.storyboard */,
-				C3913FDE2424CB8C00D4F4FB /* Actions.sks */,
-				C3913FDD2424CB8C00D4F4FB /* GameScene.sks */,
-				C3913FDC2424CB8C00D4F4FB /* GameScene.swift */,
-				C3913FB32424C4E000D4F4FB /* Assets.xcassets */,
-				C3913FB52424C4E000D4F4FB /* LaunchScreen.storyboard */,
 				C3913FB82424C4E000D4F4FB /* Info.plist */,
+				C3913FE52424DC8C00D4F4FB /* Assets */,
+				C3913FE42424DC8300D4F4FB /* Template */,
+				C3913FE32424DC7B00D4F4FB /* Scenes */,
+				C3913FE22424DC6900D4F4FB /* ViewController */,
 			);
 			path = ColourSwitch;
 			sourceTree = "<group>";
@@ -132,6 +140,47 @@
 				C3913FCE2424C4E000D4F4FB /* Info.plist */,
 			);
 			path = ColourSwitchUITests;
+			sourceTree = "<group>";
+		};
+		C3913FE22424DC6900D4F4FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3913FAE2424C4DC00D4F4FB /* GameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C3913FE32424DC7B00D4F4FB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C3913FDC2424CB8C00D4F4FB /* GameScene.swift */,
+				C33789472424F94B00466C22 /* MenuScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C3913FE42424DC8300D4F4FB /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				C3913FA62424C4DC00D4F4FB /* AppDelegate.swift */,
+				C3913FEA2424E17900D4F4FB /* Settings.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		C3913FE52424DC8C00D4F4FB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C3913FB02424C4DC00D4F4FB /* Main.storyboard */,
+				C3913FB32424C4E000D4F4FB /* Assets.xcassets */,
+				C3913FE72424DE0200D4F4FB /* ball.png */,
+				C3913FE62424DE0100D4F4FB /* ColorCircle@2x.png */,
+				C337894D2424FF3700466C22 /* game_over.wav */,
+				C337894B2424FF2D00466C22 /* bling.wav */,
+				C33789492424F99300466C22 /* logo@2x.png */,
+				C3913FB52424C4E000D4F4FB /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +287,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3913FE02424CB8C00D4F4FB /* GameScene.sks in Resources */,
+				C3913FE82424DE0200D4F4FB /* ColorCircle@2x.png in Resources */,
+				C337894A2424F99300466C22 /* logo@2x.png in Resources */,
+				C3913FE92424DE0200D4F4FB /* ball.png in Resources */,
 				C3913FB22424C4DC00D4F4FB /* Main.storyboard in Resources */,
 				C3913FB42424C4E000D4F4FB /* Assets.xcassets in Resources */,
 				C3913FB72424C4E000D4F4FB /* LaunchScreen.storyboard in Resources */,
-				C3913FE12424CB8C00D4F4FB /* Actions.sks in Resources */,
+				C337894E2424FF3700466C22 /* game_over.wav in Resources */,
+				C337894C2424FF2D00466C22 /* bling.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +321,8 @@
 			files = (
 				C3913FDF2424CB8C00D4F4FB /* GameScene.swift in Sources */,
 				C3913FAF2424C4DC00D4F4FB /* GameViewController.swift in Sources */,
+				C33789482424F94B00466C22 /* MenuScene.swift in Sources */,
+				C3913FEB2424E17900D4F4FB /* Settings.swift in Sources */,
 				C3913FA72424C4DC00D4F4FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
